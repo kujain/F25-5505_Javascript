@@ -1,13 +1,13 @@
 ## Exercise 1
 ### Hello World!
 ```
-console.log('Hello');
+console.log('Hello Fall 2025');
 ```
 ### Using vars with Hello World!
 ```
 let greeting_container;
 // assign greeting to variable
-greeting_container = "Hello";
+greeting_container = 'Hello Fall 2025';
 console.log(greeting_container);
 ```
 
@@ -28,9 +28,14 @@ const btn = document.getElementById('button');
 
 const rainbow = ['red','orange','yellow','green','blue','rebeccapurple','violet'];
 function change() {
+  const num = Math.floor( 7*Math.random() );
   document.body.style.background = rainbow[Math.floor(7*Math.random())];
 }
 btn.addEventListener('click', change);
+```
+### Automatic
+```
+setInterval( change, 500 );
 ```
 
 ## Exercise 3
@@ -71,7 +76,7 @@ document.body.style.backgroundColor = bgColor;
 ## Exercise 4
 ### AJAX and APIs
 
-Use the boileerplace file provided.
+Use the boilerplate files provided.
 
 
 
