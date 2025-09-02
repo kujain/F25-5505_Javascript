@@ -16,6 +16,18 @@
 - Apps/AI tools available to help auto-generate code.
 - Coding standards and patterns are constantly evolving - constantly playing catch-up.
 
+## Coding in the Age of AI
+**EXISTING TOOLS**
+- Claude.
+- Github Copilot.
+- Cursor.
+- Replit AI.
+
+**CONCERNS**
+- Auto-generate code are not always perfect and can easily break in specific use cases
+- An understanding of coding is still required.
+- Not always the most efficient approach.
+
 ## What does a Program look like?
 Let’s look at Code written in different languages...
 
@@ -109,25 +121,18 @@ function setup() {
 ```
 ### R
 ```
-num = as.integer(readline(prompt="Enter a number: "))
-
-flag = 0
-if (num > 1) {
-    flag = 1
-    for(i in 2:(num-1)) {
-        if ((num %% i) == 0) {
-            flag = 0
-            break
-        }
-    }
+categorize_number <- function(number) {
+  if (number %% 2 == 0) {
+    return("Even")
+  } else {
+    return("Odd")
+  }
 }
-if (num == 2)    flag = 1
 
-if (flag == 1) {
-    print(paste(num,"is one"))
-} else {
-    print(paste(num,"is not one"))
-}
+num <- as.numeric(readline("Enter a number: "))
+
+category <- categorize_number(num)
+cat(num, "is an", category, "number.\n")
 ```
 
 ### Javascript
@@ -152,7 +157,7 @@ Generative http://color-wander.surge.sh/
 Informative http://www.histography.io/
 
 Apps
-http://ubereats.com
+http://uber.com
 https://www.facebook.com/
 https://slack.com/
 
@@ -188,7 +193,7 @@ https://minitokyo3d.com/
 
 ## Tools of the Trade
 ### Text Editors
-MS Visual Studio		https://visualstudio.microsoft.com/vs/mac/
+Visual Studio Code	https://code.visualstudio.com/
 Sublime Text: 		https://www.sublimetext.com/
 Brackets: 			https://brackets.io/
 Chrome DevTools: 	https://developer.chrome.com/devtools
@@ -303,9 +308,14 @@ const btn = document.getElementById('button');
 
 const rainbow = ['red','orange','yellow','green','blue','rebeccapurple','violet'];
 function change() {
-  document.body.style.background = rainbow[Math.floor(7*Math.random())];
+   	const num = Math.floor( 7*Math.random() );
+	document.body.style.background = rainbow[Math.floor(7*Math.random())];
 }
 btn.addEventListener('click', change);
+```
+**Automatic**
+```
+setInterval( change, 500 );
 ```
 
 ## Javascript Flex - Exercise 3
