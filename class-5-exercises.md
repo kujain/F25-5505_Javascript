@@ -59,7 +59,7 @@
 ```
 
 ## Assignment 5
-#### Write code that, on click of a button, can choose a random image from unsplash and add it inside the section tag: �(you can use this url as the source: https://source.unsplash.com/random)
+#### Write code that, on click of a button, can choose a random image from unsplash and add it inside the section tag: (you can use this url as the source: https://picsum.photos/600/400)
 ```
 ```
 
