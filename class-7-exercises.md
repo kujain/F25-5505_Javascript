@@ -1,4 +1,4 @@
-# Class 7 Notes
+# Class 7 Exercises
 Here are some of the scripts that were used during class (use the HTML Boilerplate files from Class 7 to work with these):
 
 ### Blocking Sync Code
