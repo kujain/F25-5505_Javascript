@@ -102,19 +102,23 @@ ES6 provides for a native format for importing and exporting modules from differ
 - export exposes the elements in the module to public so it can be used.
 - 
 ```
-//------ scripts.js ------
+//------ main.js ------
 import {stats} from './stats.js';
 
 console.log(stats.mean(counts));
 console.log(stats.standardDeviation(counts));
 ```
-
 ```
 //------ stats.js ------
 const Stats = function(my_list) {
 ... ...
 }
 export const stats = Stats;
+```
+```
+//------ index.html ------
+<script type="module" src="js/main.js"></script>
+
 ```
 
 
