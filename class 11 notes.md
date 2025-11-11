@@ -202,7 +202,7 @@ npm start
 
 Now, all es6 code format will auto-convert into es5 syntax. This gives you so much flexibility in your coding style that its pretty much the best reason for using a task runner!
 
-----
+
 
 # 9. Working with ES6 modules
 
@@ -230,7 +230,62 @@ The generated js converts all the ES6 modules into a flat js file ready for any 
 
 **NOTE:** The above also includes jQuery framework to serve as an example of importing an external library into your project. You can simply remove it from gulpfile.js if its not required for your project, or use any other library instead.
 
+# 10. Using a modern and efficient taskrunner: Vite
 
+Vite is a more modern and very fast dev environment that automates most of the automation scripts presented earlier.
+- SCSS compiling and minification. 
+- JS transpiling (minimum ES6) and minification.
+- Built-in dev server
+- Linting and testing
+- Assets handling
+   etc.
+Download the initialization folder: https://github.com/kujain/F25-5505_Javascript/blob/main/final_vite_boilerplate_template.zip
+
+To install and run:
+```
+$ npm install
+```
+```
+// to run the dev server on port 3000
+$ npm run dev
+```
+```
+// to compile all assets for distribution
+$ npm run build
+```
+
+----
 ## GOING FORWARD:
 
-### Please use the above workflow and adapt your upcoming final project into it. Test the steps and make sure that the final files being generated in  the dist folder are correct and working.
+### Please use the either of the 3 workflows presented above and adapt your upcoming final project into it. Test the steps and make sure that the final files being generated in  the dist folder are correct and working.
+
+The following zip files contain the complete folder structure and configuration files for gulp, webpack, vite etc. SImply extract, update the html, js, (s)css files and run the automation to compile:
+
+### OPTION 1: COMPLETE GULP TASKS (non-ES6):
+Download: https://github.com/kujain/F25-5505_Javascript/blob/main/final_boilerplate_template.zip
+```
+$ npm install
+// to run compile and start the dev server
+$ npm start
+```
+
+### OPTION 2: COMPLETE GULP TASKS (ES6):
+Download: https://github.com/kujain/F25-5505_Javascript/blob/main/final_es6_boilerplate_template.zip
+```
+$ npm install
+// to run compile and start the dev server
+$ npm start
+```
+
+
+### OPTION 3: COMPLETE VITE TASKS (ES6):
+Download: https://github.com/kujain/F25-5505_Javascript/blob/main/final_vite_boilerplate_template.zip
+
+```
+$ npm install
+// to start the dev server
+$ npm run dev
+// to compile final distribution assets
+$ npm run build
+```
+
