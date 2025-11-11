@@ -30,7 +30,8 @@ Install Nodejs (also installs NPM) (version 11):
 brew install node@24
 ```
 to upgrade: `brew upgrade node`
-(or download install from nodejs.org - LTS 24.x)
+
+**For Windows or otherwise: download install from nodejs.org - LTS 24.x)**
 
 Git install:
 ```
