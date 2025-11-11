@@ -1,6 +1,6 @@
-**For steps 1 - 6 start from this starting boilerplate: [empty boilerplate](https://github.com/kujain/F25-5505_Javascript/blob/main/class-11_boilerplate_starter.zip)**
+**For steps 1 - 8 start from this starting boilerplate: [empty boilerplate](https://github.com/kujain/F25-5505_Javascript/blob/main/class-11_boilerplate_starter.zip)**
 
-**For step 7, use this boilerplate: [es6 modules boilerplate](https://github.com/kujain/F25-5505_Javascript/blob/main/class-11_boilerplate_es6_starter.zip)**
+**For step 9, use this boilerplate: [es6 modules boilerplate](https://github.com/kujain/F25-5505_Javascript/blob/main/class-11_boilerplate_es6_starter.zip)**
 
 **For the vite example, use this boilerplate: [Vite boilerplate](https://github.com/kujain/F25-5505_Javascript/blob/main/final_vite_boilerplate_template.zip)**
 
