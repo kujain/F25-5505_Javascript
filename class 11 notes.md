@@ -239,7 +239,9 @@ Vite is a more modern and very fast dev environment that automates most of the a
 - Built-in dev server
 - Linting and testing
 - Assets handling
-   etc.
+- and more.
+- https://vite.dev/
+  
 Download the initialization folder: https://github.com/kujain/F25-5505_Javascript/blob/main/final_vite_boilerplate_template.zip
 
 To install and run:
@@ -258,7 +260,7 @@ $ npm run build
 ----
 ## GOING FORWARD:
 
-### Please use the either of the 3 workflows presented above and adapt your upcoming final project into it. Test the steps and make sure that the final files being generated in  the dist folder are correct and working.
+### Please use the either of the 3 workflows presented above and adapt for your upcoming final project as needed. Test the steps and make sure that the final files being generated in the dist folder are correct and working.
 
 The following zip files contain the complete folder structure and configuration files for gulp, webpack, vite etc. SImply extract, update the html, js, (s)css files and run the automation to compile:
 
@@ -277,7 +279,6 @@ $ npm install
 // to run compile and start the dev server
 $ npm start
 ```
-
 
 ### OPTION 3: COMPLETE VITE TASKS (ES6):
 Download: https://github.com/kujain/F25-5505_Javascript/blob/main/final_vite_boilerplate_template.zip
