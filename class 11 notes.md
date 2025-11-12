@@ -258,13 +258,13 @@ $ npm run build
 ```
 
 ----
-## GOING FORWARD:
+# GOING FORWARD:
 
 ### Please use the either of the 3 workflows presented above and adapt for your upcoming final project as needed. Test the steps and make sure that the final files being generated in the dist folder are correct and working.
 
 The following zip files contain the complete folder structure and configuration files for gulp, webpack, vite etc. SImply extract, update the html, js, (s)css files and run the automation to compile:
 
-### OPTION 1: COMPLETE GULP TASKS (non-ES6):
+## OPTION 1: COMPLETE GULP TASKS (non-ES6):
 Download: https://github.com/kujain/F25-5505_Javascript/blob/main/final_boilerplate_template.zip
 ```
 $ npm install
@@ -272,7 +272,7 @@ $ npm install
 $ npm start
 ```
 
-### OPTION 2: COMPLETE GULP TASKS (ES6):
+## OPTION 2: COMPLETE GULP TASKS (ES6):
 Download: https://github.com/kujain/F25-5505_Javascript/blob/main/final_es6_boilerplate_template.zip
 ```
 $ npm install
@@ -280,7 +280,7 @@ $ npm install
 $ npm start
 ```
 
-### OPTION 3: COMPLETE VITE TASKS (ES6):
+## OPTION 3: COMPLETE VITE TASKS (ES6):
 Download: https://github.com/kujain/F25-5505_Javascript/blob/main/final_vite_boilerplate_template.zip
 
 ```
@@ -290,4 +290,27 @@ $ npm run dev
 // to compile final distribution assets
 $ npm run build
 ```
+
+# SHARING CODE WITH TEAM
+
+Share ONLY these files :
+- src/
+- index.html
+- gulpfile.js
+- package.json
+- package-lock.json
+- (any other config files)
+- DO NOT INCLUDE node_modules/ or dist/!
+
+Zip the files and send to team member (or instructor) or upload to github/canvas.
+
+At the instructor/team member end: copy to a new location (or clone if using git/github) and cd into it eg.:
+```
+$ cd ../CLEANFOLDER
+```
+run:    `$ npm install`
+
+This will clone the installed packages in this new folder and make them available for use. As long as they have node installed, the below will generate all the dist files etc.
+
+Run   `$ npm start (or npm run dev if using vite)`
 
