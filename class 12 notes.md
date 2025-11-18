@@ -214,7 +214,7 @@ http-server
 - Base code: (Get them from the console above)
 ```
 const config = {
-  apiKey: "AIzaSyD9Wra4wPC0Vz21wIi7LJOFEpfwr5oRd1M",
+  apiKey: "**use your key here**",
   authDomain: "dt-webadvanced-js.firebaseapp.com",
   databaseURL: "https://dt-webadvanced-js.firebaseio.com",
   projectId: "dt-webadvanced-js",
@@ -273,7 +273,7 @@ st_ref.push(jsonObject);
 - Popular Databases: mySQL, PostgreSQL, MongoDB
 
 
-## API - INTERFACE BETWEEN FE-BE
+## API - INTERFACE BETWEEN Frontend and Backend
 
 - APIs allow connection between completely different and unfamiliar frontend and backend systems (or between different backend systems)
 - Exposes a part of the backend application through its methods and options that allow a client application to make requests to send and receive data
@@ -359,7 +359,6 @@ const client = new MongoClient(uri, {
   }
 });
 ```
-
 
 **In terminal:** `node ./server.js`
 
